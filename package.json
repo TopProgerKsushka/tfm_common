@@ -1,0 +1,19 @@
+{
+  "name": "tfm_common",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node .",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "Kseniia Labutina <ksulabut@mail.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "mongodb": "^5.5.0",
+    "typescript": "^5.0.4"
+  }
+}
