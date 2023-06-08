@@ -5,6 +5,7 @@
   "type": "module",
   "main": "lib/index.js",
   "scripts": {
+    "prepare": "npm run build",
     "start": "node .",
     "build": "tsc",
     "watch": "tsc -w"
